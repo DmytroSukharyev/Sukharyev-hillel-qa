@@ -1,0 +1,30 @@
+.contact-page section::before {
+    content: "Contact Me";
+    display: block;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-page section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.contact-page h2 {
+    font-size: 2.5em;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-page p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-page p a:hover {
+    text-decoration: underline;
+}
